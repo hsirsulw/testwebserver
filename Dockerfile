@@ -8,11 +8,11 @@ FROM registry.access.redhat.com/rhel7
 MAINTAINER <admin@example.com>
 
 ### Add Atomic/OpenShift Labels - https://github.com/projectatomic/ContainerApplicationGenericLabels#####
-LABEL name="happywebserver" \
+LABEL name="testwebserver" \
       vendor="Example Inc" \
       version="1.0" \
       release="1" \
-      run='docker run -d -p 8080:80 --name=happyweb happywebserver' \
+      run='docker run -d -p 8080:80 --name=testweb testwebserver' \
       summary="Acme Corp's Starter app" \
       description="Starter app will do ....."
 
