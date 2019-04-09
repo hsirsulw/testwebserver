@@ -15,6 +15,8 @@ LABEL name="testwebserver" \
       summary="Example Starter app" \
       description="Starter app will do ....."
 
+COPY licenses /licenses
+
 #RUN yum update -y
 RUN yum install httpd -y
 
