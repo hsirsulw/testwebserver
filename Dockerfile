@@ -3,7 +3,7 @@
 # Version 1
 
 # Pull the rhel image from the local repository
-FROM registry.access.redhat.com/rhel7
+FROM registry.redhat.io/rhel7
 MAINTAINER <admin@example.com>
 
 ### Add Atomic/OpenShift Labels - https://github.com/projectatomic/ContainerApplicationGenericLabels#####
