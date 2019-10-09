@@ -1,5 +1,5 @@
 ## Simple webserver container 
-# Using RHEL 7 base image and Apache Web server
+# Using UBI 8 base image and Apache Web server
 # Version 1
 
 # Pull the rhel image from the local repository
